@@ -48,8 +48,8 @@ public class Main {
         //Ejercicio ocho:
         copiarArchivo("./src/datosavanzados/Main.java","copia.txt");
 
-        //Ejercicio nueve: se crea un nuevo archivo con la palabra openBootcamp, obteniendo los caracteres desde otro archivo
-        escribirOpenBootCamp();
+        //Ejercicio nueve
+        leerByteAByte();
     }
 
     public static String reverse(String texto) {
@@ -194,7 +194,7 @@ public class Main {
 
     }
 
-    public static void escribirOpenBootCamp() {
+    public static void leerByteAByte() {
 
         HashMap<Integer, Character> map = new HashMap<Integer, Character>();
         ArrayList<Character> frase = new ArrayList<>();
